@@ -229,6 +229,11 @@
     .chauffeur-info {
         flex-direction: column;
         text-align: center;
+        order: 1;
+    }
+    
+    .contact-info .contact-item {
+        order: 2;
     }
     
     .chauffeur-image {
