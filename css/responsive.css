@@ -214,6 +214,16 @@
     .contact-wrapper {
         padding: 0 5px;
         gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .booking-container {
+        order: 1;
+    }
+    
+    .contact-info-column {
+        order: 2;
     }
     
     .chauffeur-info {
