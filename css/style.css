@@ -293,7 +293,17 @@ h4 {
 }
 
 .logo-text {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.powered-by {
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--silver-text);
+    margin-top: 2px;
+    font-family: 'Inter', sans-serif;
 }
 
 .nav-menu {
