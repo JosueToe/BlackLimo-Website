@@ -286,8 +286,8 @@ h4 {
 }
 
 .logo-image {
-    height: 40px;
-    width: auto;
+    height: 65px;
+    width: 70px;
     object-fit: contain;
     transition: all 0.3s ease;
 }
