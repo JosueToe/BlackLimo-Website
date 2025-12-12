@@ -1320,6 +1320,25 @@ h4 {
     font-size: 14px;
 }
 
+.contact-item .phone-link-white {
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.contact-item .phone-link-white:hover {
+    opacity: 0.8;
+}
+
+.contact-item .phone-link-white:visited {
+    color: var(--white);
+}
+
+.contact-item .phone-link-white:active {
+    color: var(--white);
+}
+
 .social-links {
     display: flex;
     gap: 15px;
