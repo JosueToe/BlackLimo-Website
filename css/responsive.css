@@ -94,6 +94,10 @@
         text-align: center;
     }
     
+    .hero::before {
+        background-position: 80% center;
+    }
+    
     .hero-title {
         font-size: 36px;
     }
