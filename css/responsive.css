@@ -95,22 +95,28 @@
     }
     
     .hero::before {
-        /* Shift further left so the Bay Harbor sign is even more visible on small phones */
-        background-position: 60% center;
+        /* Shift further left and slightly down so the Bay Harbor sign is visible but sits lower */
+        background-position: 60% 70%;
     }
     
     .hero-title {
-        font-size: 36px;
+        font-size: 30px;
+        line-height: 1.05;
+        margin-bottom: 16px;
     }
     
     .hero-subtitle {
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 28px;
     }
     
     .hero-content {
         max-width: 100%;
-        padding: 30px 20px;
+        padding: 5px 18px 36px;
         text-align: center;
+        /* Lift hero text higher so it fully clears the Bay Harbor sign */
+        margin-top: -70px;
     }
     
     .hero-cta {
@@ -328,7 +334,7 @@
     
     .hero::before {
         /* Match small-phone layout so Bay Harbor sign stays visible */
-        background-position: 60% center;
+        background-position: 60% 70%;
     }
     
     /* Stats */
