@@ -95,7 +95,8 @@
     }
     
     .hero::before {
-        background-position: 80% center;
+        /* Shift further left so the Bay Harbor sign is even more visible on small phones */
+        background-position: 60% center;
     }
     
     .hero-title {
@@ -323,6 +324,11 @@
     .hero .container {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+    
+    .hero::before {
+        /* Match small-phone layout so Bay Harbor sign stays visible */
+        background-position: 60% center;
     }
     
     /* Stats */
